@@ -24,55 +24,55 @@ export class ProductosComponent implements OnInit {
   productos: Producto[] = [
     {
       id: 1,
-      nombre: 'Producto Premium',
-      descripcion: 'Nuestro producto más avanzado con características de última generación.',
-      precio: 299.99,
-      imagen: '💎',
-      categoria: 'Premium'
+      nombre: 'Chifles',
+      descripcion: 'Crujientes y deliciosos chifles hechos con plátanos verdes seleccionados.',
+      precio: 3.50,
+      imagen: '🥨',
+      categoria: 'Salado'
     },
     {
       id: 2,
-      nombre: 'Solución Empresarial',
-      descripcion: 'Perfecto para empresas que buscan eficiencia y escalabilidad.',
-      precio: 499.99,
-      imagen: '🏢',
-      categoria: 'Empresarial'
+      nombre: 'Alfajores',
+      descripcion: 'Deliciosos alfajores rellenos de dulce de leche y cubiertos de chocolate.',
+      precio: 2.00,
+      imagen: '🍪',
+      categoria: 'Galletas'
     },
     {
       id: 3,
-      nombre: 'Kit Básico',
+      nombre: 'Helados',
       descripcion: 'Ideal para comenzar con todas las funcionalidades esenciales.',
-      precio: 99.99,
-      imagen: '📦',
-      categoria: 'Básico'
+      precio: 2.50,
+      imagen: '🍦',
+      categoria: 'Postres'
     },
     {
       id: 4,
-      nombre: 'Servicio Profesional',
-      descripcion: 'Asesoría personalizada y soporte técnico especializado.',
+      nombre: 'Mil hojas',
+      descripcion: 'Deliciosas capas de masa crujiente con crema pastelera.',
       precio: 199.99,
-      imagen: '👨‍💼',
-      categoria: 'Servicios'
+      imagen: '🍰',
+      categoria: 'Pasteles'
     },
     {
       id: 5,
-      nombre: 'Solución Cloud',
+      nombre: 'Chocotejas',
       descripcion: 'Acceso desde cualquier lugar con máxima seguridad y disponibilidad.',
       precio: 149.99,
-      imagen: '☁️',
-      categoria: 'Cloud'
+      imagen: '🍫',
+      categoria: 'Chocolates'
     },
     {
       id: 6,
-      nombre: 'Paquete Completo',
+      nombre: 'Canchitas',
       descripcion: 'Todo lo que necesitas en un solo paquete con descuento especial.',
       precio: 799.99,
-      imagen: '🎁',
-      categoria: 'Completo'
+      imagen: '🍿',
+      categoria: 'Salado'
     }
   ];
 
-  categorias = ['Todos', 'Premium', 'Empresarial', 'Básico', 'Servicios', 'Cloud', 'Completo'];
+  categorias = ['Todos', 'Salado', 'Chocolates', 'Postres', 'Galletas', 'Pasteles'];
   categoriaSeleccionada = 'Todos';
 
   constructor(private seoService: SeoService) { }
@@ -80,8 +80,8 @@ export class ProductosComponent implements OnInit {
   ngOnInit(): void {
     this.seoService.updateTitle('Productos - Mi Negocio | Catálogo completo de productos y servicios');
     this.seoService.updateMetaTags(
-      'Explora nuestro catálogo completo de productos y servicios. Desde soluciones básicas hasta paquetes empresariales premium.',
-      'productos, servicios, catálogo, soluciones, empresarial, premium, básico, cloud',
+      'Explora nuestro catálogo completo de productos y servicios. Desde deliciosos chifles hasta exquisitos alfajores.',
+      'Productos, Catálogo, Servicios, Chifles, Alfajores, Helados, Mil hojas, Chocotejas, Canchitas',
       'https://minegocio.com/assets/og-productos.jpg'
     );
     this.seoService.updateCanonicalUrl('https://minegocio.com/productos');
