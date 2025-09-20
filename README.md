@@ -1,6 +1,6 @@
-# Mi Negocio Web
+# Mi Negocio Web - Chocology
 
-Una página web moderna desarrollada con Angular SSR (Server-Side Rendering) que presenta un negocio con múltiples páginas y optimización SEO.
+Una página web moderna desarrollada con Angular SSR (Server-Side Rendering) que presenta un pequeño negocio.
 
 ## 🚀 Características
 
@@ -83,23 +83,12 @@ ng build --configuration production
 ## 📱 Páginas
 
 ### 🏠 Inicio
-- Hero section con llamada a la acción
-- Características principales del negocio
-- Sección de llamada a la acción
 
 ### 👥 Nosotros
-- Historia de la empresa
-- Misión y visión
-- Valores corporativos
-- Equipo de trabajo
 
-### 🛍️ Productos
-- Catálogo de productos con filtros
-- Características de los productos
-- Testimonios de clientes
-- Información de contacto
+### 🧁 Productos
 
-## 🔍 SEO
+##  👱‍♀️ SEO
 
 Cada página incluye:
 - **Títulos únicos** y descriptivos
@@ -119,13 +108,13 @@ Cada página incluye:
 
 ## 📞 Contacto
 
-- **Email**: contacto@minegocio.com
-- **Teléfono**: +1 (555) 123-4567
-- **Dirección**: Av. Principal 123, Ciudad
+- **Email**: alejandracubillassrc2021@gmail.com
+- **Teléfono**: +51 913441396
+- **Dirección**: CUH. Condominio Ciudad Sol Mz CC Lt 13
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+© 2025 Valle Grande
 
 ---
 
